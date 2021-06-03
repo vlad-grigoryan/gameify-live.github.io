@@ -1,0 +1,12 @@
+<div class="search-container" xmlns="http://www.w3.org/1999/html">
+  <form class="search-form" #form="ngForm" (ngSubmit)="onSubmit(form)">
+    <span class="logo" routerLink="/">Gameify</span>
+    <input
+      class="search-input"
+      name="search"
+      ngModel
+      placeholder="Search 500.000+ games"
+    />
+    <button class="search-button">Search</button>
+  </form>
+</div>
